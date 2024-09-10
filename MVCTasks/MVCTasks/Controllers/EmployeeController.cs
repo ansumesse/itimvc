@@ -1,44 +1,72 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCTasks.Models;
+using MVCTasks.Repository;
 
 namespace MVCTasks.Controllers
 {
     public class EmployeeController : Controller
     {
-        CompanyDBContext context = new CompanyDBContext();
-        public string Add(string name, decimal salary, int deptID)
+        CompanyDBContext context;
+        IEmployeeRepo EmpRepo;
+        IDeparmentRepo DeptRepo;
+
+
+        public EmployeeController(CompanyDBContext db, IEmployeeRepo employeeRepo, IDeparmentRepo deparmentRepo)
         {
-            context.Employees.Add(new Employee
+            this.context = db;
+            this.EmpRepo = employeeRepo;
+            this.DeptRepo = deparmentRepo;
+        }
+        public IActionResult Add(Employee emp)
+        {
+            if (ModelState.IsValid)
             {
-                Name = name,
-                Salary = salary,
-                DeptID = deptID
-            });
-            context.SaveChanges();
-            return "ADDED";
+                EmpRepo.Add(emp);
+                return RedirectToAction("Index");
+            }
+            else
+                return RedirectToAction("showAdd");
         }
-        public JsonResult Index()
+        public IActionResult Index()
         {
-            return Json(context.Employees.ToList());
+            return View(EmpRepo.GetAll());
         }
-        public string Read(int id)
+        public IActionResult Read(int id)
         {
-            Employee employee = context.Employees.FirstOrDefault(e => e.ID == id);
-            return $"{employee.ID}\t{employee.Name}\t{employee.Salary}\t{employee.DeptID}";
+            Employee employee = EmpRepo.GetByID(id);
+            return View(employee);
         }
-        public string Update(int id, string name, decimal salary, int deptID)
+        public IActionResult Update(Employee emp)
         {
-            Employee oldEmp = context.Employees.FirstOrDefault(e => e.ID == id);
-            oldEmp.Name = name;
-            oldEmp.Salary = salary;
-            oldEmp.DeptID = deptID;
-            context.SaveChanges();
-            return "Updated";
+            if (ModelState.IsValid)
+            {
+                EmpRepo.Update(emp);
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("showUpdate");
         }
-        public string Delete(int id)
+        public IActionResult Delete(int id)
         {
-            context.Employees.Remove(context.Employees.FirstOrDefault(e => e.ID == id));
-            return "Deleted";
+            EmpRepo.Delete(id);
+            return RedirectToAction("Index");
+        }
+        public IActionResult showAdd()
+        {
+            ViewData["depts"] = DeptRepo.GetAll();
+            return View();
+        }
+        public IActionResult showUpdate(int id)
+        {
+            ViewData["depts"] = DeptRepo.GetAll();
+            return View(EmpRepo.GetByID(id));
+        }
+        public IActionResult CheckUniqueEmail(string email)
+        {
+            var emp = EmpRepo.UniqueEmail(email);
+            if (emp != null)
+                return Json(false);
+            return Json(true);
+
         }
     }
 }

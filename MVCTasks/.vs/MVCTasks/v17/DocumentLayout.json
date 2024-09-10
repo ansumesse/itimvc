@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\views\\course\\shownew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\views\\course\\shownew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\views\\shared\\customlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\views\\shared\\customlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\views\\course\\showupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\views\\course\\showupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|d:\\edu\\backend\\itimvc\\mvctasks\\mvctasks\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66243F7E-1852-4BBC-A2BF-E7B1E70CB3DC}|MVCTasks\\MVCTasks.csproj|solutionrelative:mvctasks\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Department.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "MVCTasks\\Models\\Department.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Models\\Department.cs",
-              "RelativeToolTip": "MVCTasks\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:59:25.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "MVCTasks\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "MVCTasks\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:59:08.518Z",
+              "Title": "ShowNew.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Course\\ShowNew.cshtml",
+              "RelativeDocumentMoniker": "MVCTasks\\Views\\Course\\ShowNew.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Course\\ShowNew.cshtml",
+              "RelativeToolTip": "MVCTasks\\Views\\Course\\ShowNew.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T12:12:19.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "MVCTasks\\Models\\Employee.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Models\\Employee.cs",
-              "RelativeToolTip": "MVCTasks\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:36:51.056Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCTasks\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "MVCTasks\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T11:46:31.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "CustomLayout.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Shared\\CustomLayout.cshtml",
+              "RelativeDocumentMoniker": "MVCTasks\\Views\\Shared\\CustomLayout.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Shared\\CustomLayout.cshtml",
+              "RelativeToolTip": "MVCTasks\\Views\\Shared\\CustomLayout.cshtml",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAmwJ0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T11:43:53.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "MVCTasks\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "MVCTasks\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:27:51.528Z",
+              "WhenOpened": "2024-09-10T11:36:34.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Program.cs",
+              "RelativeDocumentMoniker": "MVCTasks\\Program.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Program.cs",
+              "RelativeToolTip": "MVCTasks\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:36:05.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowUpdate.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Course\\ShowUpdate.cshtml",
+              "RelativeDocumentMoniker": "MVCTasks\\Views\\Course\\ShowUpdate.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Course\\ShowUpdate.cshtml",
+              "RelativeToolTip": "MVCTasks\\Views\\Course\\ShowUpdate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T11:07:59.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCTasks\\Views\\Course\\Index.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "MVCTasks\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T10:41:28.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "MVCTasks\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "MVCTasks\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:07:23.137Z",
               "EditorCaption": ""
             }
           ]

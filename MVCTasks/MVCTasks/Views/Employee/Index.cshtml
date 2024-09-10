@@ -1,0 +1,38 @@
+﻿@model List<Employee>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "CustomLayout";
+}
+
+<h1>Index</h1>
+
+<td> <a href="/employee/showAdd" class="btn btn-primary">New employee</a/></td>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>employee Name</th>
+        <th>Salary</th>
+        <th>Department ID</th>
+    </tr>
+    @if(Model != null)
+    {
+        foreach (Employee employee in Model)
+        {
+            <tr>
+                <td>@employee.ID</td>
+                <td>@employee.Name</td>
+                <td>@employee.Salary</td>
+                <td>@employee.DeptID</td>
+                <td> <a href="/employee/ShowUpdate/@employee.ID" class="btn btn-primary">Edit</a/></td>
+                        <td> <a href="/employee/Read/@employee.ID" class="btn btn-primary">detaills</a/></td>
+                <td> <a href="/employee/delete/@employee.ID" onclick="confirm()" class="btn btn-primary">Delete</a/></td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="3">No employee Found</td>
+        </tr>
+    }
+</table>

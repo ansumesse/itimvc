@@ -1,0 +1,37 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<td> <a asp-action="ShowNew" class="btn btn-primary">New Department</a></td>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Course ID</th>
+        <th>Course Name</th>
+        <th>Course Degree</th>
+    </tr>
+    @if(Model != null)
+    {
+        foreach (Course course in Model)
+        {
+            <tr>
+                <td>@course.ID</td>
+                <td>@course.Name</td>
+                <td>@course.Degree</td>
+                <td> <a asp-action="ShowUpdate" asp-route-id="@course.ID" class="btn btn-primary">Edit</a/></td>
+                <td> <a href="/Course/delete/@course.ID" onclick="confirm()" class="btn btn-primary">Delete</a/></td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="3">No Department Found</td>
+        </tr>
+    }
+    
+</table>
+

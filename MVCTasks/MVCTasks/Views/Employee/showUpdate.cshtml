@@ -1,0 +1,29 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "showUpdate";
+    SelectList options = new SelectList(ViewBag.depts, "ID", "DeptName");
+
+}
+
+<h1>showUpdate</h1>
+
+<form asp-action="Update" asp-route-ID="@Model.ID"  method="post">
+   
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-check form-control" />
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="Salary"></label>
+    <input asp-for="Salary" class="form-check form-control" />
+
+    <label asp-for="DeptID"></label>
+    <select asp-for="DeptID" asp-items="options">
+    
+</select>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,33 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "showAdd";
+    SelectList options = new SelectList(ViewBag.depts, "ID", "DeptName");
+}
+
+<h1>showAdd</h1>
+
+<form asp-action="Add" asp-controller="Employee" method="post">
+    
+    <label>Name</label>
+    <input asp-for="Name" class="form-check form-control" />
+    <span asp-validation-for="Name"></span>
+    <br />
+    <label>Salary</label>
+    <input asp-for="Salary" class="form-check form-control" />
+    <br />
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-check form-control" />
+    <span asp-validation-for="Email"></span>
+    <br />
+    <label asp-for="DeptID"></label>
+    <select asp-for="DeptID" asp-items="options"></select>
+    <br />
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}

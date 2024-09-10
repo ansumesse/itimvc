@@ -1,44 +1,55 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCTasks.Models;
+using MVCTasks.Repository;
 
 namespace MVCTasks.Controllers
 {
     public class DepartmentController : Controller
     {
-        CompanyDBContext context = new CompanyDBContext();
-        public string Add(int id, string deptname,  int capacity)
+        IDeparmentRepo DeptRepo;
+        public DepartmentController(IDeparmentRepo deparmentRepo)
         {
-            context.Departments.Add(new Department
+            this.DeptRepo = deparmentRepo;
+        }
+        public IActionResult Add(Department department)
+        {
+            if (ModelState.IsValid)
             {
-                ID = id,
-                DeptName = deptname,
-                Capacity = capacity
-            });
-            context.SaveChanges();
-            return "ADDED";
+                DeptRepo.Add(department);
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("showAdd");
         }
-        public JsonResult Index()
+        public IActionResult Index()
         {
-            return Json(context.Departments.ToList());
+            return View(DeptRepo.GetAll());
         }
-        public string Read(int id)
+        public IActionResult Read(int id)
         {
-            Department department = context.Departments.FirstOrDefault(d => d.ID == id);
-            return $"{department.ID}\t{department.DeptName}\t{department.Capacity}";
+            Department department = DeptRepo.GetByID(id);
+            return Content($"{department.ID}\t{department.DeptName}\t{department.Capacity}");
         }
-        public string Update(int id, string deptname, int capacity)
+        public IActionResult Update(Department department)
         {
-            Department oldDept = context.Departments.FirstOrDefault(e => e.ID == id);
-            oldDept.ID = id;
-            oldDept.DeptName = deptname;
-            oldDept.Capacity = capacity;
-            context.SaveChanges();
-            return "Updated";
+            if (ModelState.IsValid)
+            {
+                DeptRepo.Update(department);
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("showUpdate");
         }
-        public string Delete(int id)
+        public IActionResult Delete(int id)
         {
-            context.Departments.Remove(context.Departments.FirstOrDefault(e => e.ID == id));
-            return "Deleted";
+            DeptRepo.Delete(id);
+            return RedirectToAction("Index");
+        }
+        public IActionResult showAdd()
+        {
+            return View();
+        }
+        public IActionResult showUpdate()
+        {
+            return View();
         }
     }
 }

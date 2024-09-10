@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using MVCTasks.Models;
+using MVCTasks.Repository;
+
 namespace MVCTasks
 {
     public class Program
@@ -8,6 +12,10 @@ namespace MVCTasks
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ICourseRepo, CourseRepo>();
+            builder.Services.AddScoped<IDeparmentRepo, DepartmentRepo>();
+            builder.Services.AddScoped<IEmployeeRepo, EmployeeRepo>();
+            builder.Services.AddDbContext<CompanyDBContext>(o => o.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CompanyTest;Integrated Security=True;"));
 
             var app = builder.Build();
 

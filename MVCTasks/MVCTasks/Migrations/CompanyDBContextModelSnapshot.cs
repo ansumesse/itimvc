@@ -22,6 +22,29 @@ namespace MVCTasks.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("MVCTasks.Models.Course", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("Degree")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Courses");
+                });
+
             modelBuilder.Entity("MVCTasks.Models.Department", b =>
                 {
                     b.Property<int>("ID")
@@ -33,6 +56,9 @@ namespace MVCTasks.Migrations
                     b.Property<string>("DeptName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("ID");
 
@@ -50,12 +76,20 @@ namespace MVCTasks.Migrations
                     b.Property<int?>("DeptID")
                         .HasColumnType("int");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
                     b.Property<decimal?>("Salary")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("ID");
 

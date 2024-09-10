@@ -1,0 +1,23 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "ShowUpdate";
+}
+
+<h1>ShowUpdate</h1>
+<form asp-action="Update">
+    <input asp-for="ID" type="hidden" value="@Model.ID"/>
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-check form-control" />
+
+    <label asp-for="Degree"></label>
+    <input asp-for="Degree" class="form-check form-control" />
+
+    <input type="submit" value="Save" class="btn btn-success"/>
+</form>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+

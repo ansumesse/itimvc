@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "showUpdate";
+}
+
+<h1>showUpdate</h1>
+
+<form action="/department/update">
+    <label>Department ID</label>
+    <input type="number" name="ID" class="form-check form-control" />
+
+    <label>Department Name</label>
+    <input type="text" name="DeptName" class="form-check form-control" />
+
+    <label>Capacity</label>
+    <input type="number" name="Capacity" class="form-check form-control" />
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>

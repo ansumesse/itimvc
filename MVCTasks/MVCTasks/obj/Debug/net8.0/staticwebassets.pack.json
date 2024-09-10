@@ -5,12 +5,48 @@
       "PackagePath": "staticwebassets\\MVCTasks.bundle.scp.css"
     },
     {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\img\\bg-callout.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-callout.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-masthead.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\img\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio-1.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\img\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio-2.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\img\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio-3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\assets\\img\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio-4.jpg"
+    },
+    {
       "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "D:\\Edu\\BackEnd\\ITIMVC\\MVCTasks\\MVCTasks\\wwwroot\\js\\site.js",

@@ -1,0 +1,24 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "showAdd";
+}
+
+<h1>showAdd</h1>
+<form asp-action="Add" method="post" > 
+    <label asp-for="ID">Department ID</label>
+    <input asp-for="ID" class="form-check form-control" />
+
+
+    <label asp-for="DeptName">Department Name</label>
+    <input asp-for="DeptName" class="form-check form-control" />
+
+    <label asp-for="Capacity">Capacity</label>
+    <input asp-for="Capacity" class="form-check form-control" />
+    <span asp-validation-for="Capacity"></span>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
